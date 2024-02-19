@@ -14,29 +14,34 @@
   </head>
   <body>
     <div class="container mt-5">
-      <h2>Badword Form</h2>
-      <form action="script/index.php" method="get">
-        <div class="mb-3">
-          <label for="paragraph" class="form-laber">Parola da censurare</label>
-          <input
-            type="text"
-            class="form-control"
-            id="badword"
-            name="badword"
-            placeholder="parola da censurare"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="paragraph" class="form-laber">Paragrafo</label>
-          <textarea
-            class="form-control"
-            id="paragraph"
-            name="paragraph"
-          ></textarea>
-        </div>
-        <button class="btn btn-primary" type="subtim">Invia</button>
-        <button class="btn btn-secondary" type="reset">Reset</button>
-      </form>
+      <section>
+        <h2>Badword Form</h2>
+        <form action="script/index.php" method="get">
+          <div class="mb-3">
+            <label for="badword" class="form-laber">Parola da censurare</label>
+            <input
+              type="text"
+              class="form-control"
+              id="badword"
+              name="badword"
+              placeholder="parola da censurare"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="paragraph" class="form-laber">Paragrafo </label>
+            <textarea
+              class="form-control"
+              id="paragraph"
+              name="paragraph"
+              rows="3"
+            >
+Ciao a tutti</textarea
+            >
+          </div>
+          <button class="btn btn-primary" type="subtim">Invia</button>
+          <button class="btn btn-secondary" type="reset">Reset</button>
+        </form>
+      </section>
     </div>
   </body>
 </html>
